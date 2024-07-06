@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edvaldo Junior Desenvolvedor</title>
+    <link href="/img/java.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+</head>
+<body>
+    <div id="net"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded',() =>{
+            VANTA.NET({
+                el: "#net",
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xf36f5,
+                backgroundColor: 0x0,
+                points: 20.00,
+                maxDistance: 23.00
+            })
+        })
+    </script>
+    <div id="vanta"></div>
+    <main>
+        <div class="container">
+            <div class="head__section">
+              <img src="/img/perfil.jpeg" alt="id image">
+              <p>I'm Desenvolvedor Web Full Stack Development</p>
+            </div>
+      
+            <div class="social__links">
+              <ul id="item">
+      
+                <li class="site"><a href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                      <h3>- Site Portifólio</h3>
+                      <p>Acesse Meu Web Site.</p>
+                    </span>
+                  </a></li>
+      
+                <li class="linkedin"><a href="#">
+                    <i class="fa fa-linkedin"></i>
+                    <span>
+                      <h3>- linkedin</h3>
+                      <p>Acesse Meu Linkdin</p>
+                    </span>
+                  </a></li>
+              
+                <li class="github"><a href="#">
+                    <i class="fa fa-github"></i>
+                    <span>
+                      <h3>coding</h3>
+                      <p>Confira meus Repositórios no github.</p>
+                    </span>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+          <script src="script.js"></script>
+    </main>
+</body>
+</html>
